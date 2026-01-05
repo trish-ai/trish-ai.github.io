@@ -6,6 +6,36 @@ Tale is a minimal Jekyll theme curated for storytellers. Checkout the demo [here
 
 ![Tale screenshot](http://i.imgur.com/pXZrtmo.png)
 
+## Publish this repo as `trish-ai.github.io`
+
+This working copy is set up to deploy via **GitHub Actions → GitHub Pages** to your user site:
+
+- **Target URL**: `https://trish-ai.github.io`
+- **Repo name required**: `trish-ai.github.io` (under the `trish-ai` account)
+
+### Push with your GitHub credentials
+
+1) Create a **public** repo named **`trish-ai.github.io`** on GitHub (account: `trish-ai`)
+
+2) From this folder, set the remote and push:
+
+```bash
+# ensure the default branch is main (the workflow deploys on pushes to main)
+git branch -M main
+
+# use SSH (recommended)...
+git remote set-url origin git@github.com:trish-ai/trish-ai.github.io.git
+
+# ...or use HTTPS
+# git remote set-url origin https://github.com/trish-ai/trish-ai.github.io.git
+
+git push -u origin main
+```
+
+3) In GitHub: **Repo → Settings → Pages → Build and deployment → Source: GitHub Actions**
+
+After the workflow finishes, open **`https://trish-ai.github.io`**.
+
 ## Features
 - Easy installation
 - Compatible with GitHub Pages

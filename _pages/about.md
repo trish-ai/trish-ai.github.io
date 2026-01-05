@@ -1,15 +1,24 @@
 ---
 layout: post
 title: "About"
-author: "Chester"
+author: "trish-ai"
 permalink: /about/
 ---
 
-A friend of mine writes short stories. One sunny day, I asked if he wanted a website to showcase his works and he agreed. I decided to use GitHub Pages to host his site. That way he wouldn't have to buy a domain and a server.
+<div class="profile-photo">
+  <img
+    src="{{ '/assets/images/profile.jpg' | relative_url }}"
+    alt="Profile photo"
+    width="180"
+    height="180"
+    loading="lazy"
+  />
+</div>
 
-While doing some research up on GitHub Pages, I accidentally chanced upon this _simple, blog-aware, static site generator_ called [Jekyll](https://jekyllrb.com/) which works really well with GitHub Pages. I figured it would do just fine for my friend and I set about searching for a pretty theme. I wanted a theme with a _book-ish_ vibe. Unfortunately, most of the themes were too modern. Eventually, I caved and begun working on my own theme. With the help of [Poole](https://github.com/poole/poole), the Jekyll Butler, I was able to build **Tale**.
+I'm a Machine Learning Researcher and Engineer based in the Bay Area, specializing in taking AI research from paper to production. This blog documents my independent projects, paper implementations, and technical lessons learned along the way.
 
-## Contribute
-Feel free to create an issue or make a pull request on [GitHub](https://github.com/chesterhow/tale).
+### Find me on
+* [**LinkedIn**](https://linkedin.com/in/trishalaneeraj)
+* [**Google Scholar**](https://scholar.google.com/citations?user=X2lSWUQAAAAJ&hl=en)
+* [**GitHub**](https://github.com/trishalaneeraj)
 
-Thanks for reading!

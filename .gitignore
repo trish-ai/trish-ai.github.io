@@ -5,3 +5,6 @@
 _site
 Gemfile.lock
 .jekyll-cache
+
+# Keep local-only drafts out of git/GitHub
+_drafts/

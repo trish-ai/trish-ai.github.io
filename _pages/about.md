@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "About"
-author: "trish-ai"
+author: "Trishala Neeraj"
 permalink: /about/
 ---
 

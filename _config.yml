@@ -1,17 +1,17 @@
 # Site settings
-title:          trish-ai
-description:    "Minimal Jekyll theme for storytellers"
+title:          "Trish's Blog"
+description:    "ML research to production notes, projects, and paper takeaways."
 # For a GitHub Pages *user site* (https://trish-ai.github.io), baseurl must be empty.
 baseurl:        ""
 url:            "https://trish-ai.github.io"
 
 # Google Analytics
 # Set your GA tracking id (or leave blank to disable)
-google_analytics:
+google_analytics: G-6TTP3823TB
 
 # Author
 author:
-  name:         trish-ai
+  name:         Trishala Neeraj
   url:          https://github.com/trish-ai
   email:
 

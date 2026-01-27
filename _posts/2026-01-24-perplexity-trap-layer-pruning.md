@@ -35,11 +35,11 @@ For each model, I computed six importance metrics on 256 calibration samples fro
 
 | Metric | Definition | Pruning Signal |
 |--------|------------|----------------|
-| Block Influence | Relative hidden state change: $\|H_i - H_{i-1}\| / \|H_{i-1}\|$ | Low = safe |
+| Block Influence | Relative hidden state change: $\lVert H_i - H_{i-1}\rVert / \lVert H_{i-1}\rVert$ | Low = safe |
 | Angular Distance | $\arccos(\cos(H_{i-1}, H_i))$ | Low = safe |
-| CKA [4] | Centered Kernel Alignment: $\frac{\|H_{i-1}^T H_i\|_F^2}{\|H_{i-1}^T H_{i-1}\|_F \|H_i^T H_i\|_F}$ | High = safe |
+| CKA [4] | Centered Kernel Alignment: $\frac{\lVert H_{i-1}^T H_i\rVert_F^2}{\lVert H_{i-1}^T H_{i-1}\rVert_F \lVert H_i^T H_i\rVert_F}$ | High = safe |
 | MSE | Mean squared difference: $\text{mean}((H_i - H_{i-1})^2)$ | Low = safe |
-| L2 Norm | $\|H_i - H_{i-1}\|_2$ | Low = safe |
+| L2 Norm | $\lVert H_i - H_{i-1}\rVert_2$ | Low = safe |
 | Cosine Similarity | $\cos(H_{i-1}, H_i)$ | High = safe |
 
 ### Ablation Protocol

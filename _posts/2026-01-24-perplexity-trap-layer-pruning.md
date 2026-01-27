@@ -51,9 +51,9 @@ For each layer, I performed a complete removal (excising the layer while preserv
 
 For this study, I focused on GSM8K for mathematical reasoning evaluation. GSM8K consists of grade-school math word problems that require multi-step arithmetic reasoning. Here is an example:
 
-> **Example GSM8K problem:**
-> Q: Janet's ducks lay 16 eggs per day. She eats 3 for breakfast and bakes muffins with 4. She sells the rest for $2 each. How much does she make daily?
-> A: 16 - 3 - 4 = 9 eggs sold. 9 x $2 = $18. **Answer: 18**
+> **Example GSM8K problem:**<br>
+> Q: Janet's ducks lay 16 eggs per day. She eats 3 for breakfast and bakes muffins with 4. She sells the rest for <code>$2</code> each. How much does she make daily?<br>
+> A: 16 - 3 - 4 = 9 eggs sold. 9 x <code>$2</code> = <code>$18</code>. **Answer: 18**
 
 This produced 64 complete ablations (32 layers x 2 models), with both perplexity and reasoning measurements for every configuration.
 
